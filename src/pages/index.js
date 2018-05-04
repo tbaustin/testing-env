@@ -3,7 +3,6 @@ import cloudinary from '../utils/cloudinary'
 import { PriceAndStock } from 'react-escalade-priceline'
 import zygote from 'zygote-cart'
 import Spinner from '../components/spinner'
-import { homeStyles } from '../styles/homeStyles'
 
 export default class Index extends React.Component {
   constructor(props) {
