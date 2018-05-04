@@ -19,10 +19,10 @@ export default class Index extends React.Component {
             outline: none;
             cursor: pointer;
             border-radius: 5px;
-          }
-          button:hover {
-            background-color: #fff;
-            color: #444;
+            &:hover {
+              background-color: #fff;
+              color: #444;
+            }
           }
         `}</style>
       </div>
