@@ -19,7 +19,7 @@ export default class Template extends React.Component {
             <PageProgress />
           </PageIsLoading>
         </NoSSR> */}
-        <style jsx global>{`
+        {/* <style jsx global>{`
           html {
             height: 100%;
             box-sizing: border-box;
@@ -48,7 +48,7 @@ export default class Template extends React.Component {
             background-color: #333;
             color: #fff;
           }
-        `}</style>
+        `}</style> */}
       </div>
     )
   }

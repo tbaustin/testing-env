@@ -1,17 +1,17 @@
-import React from 'react';
-import Link from 'gatsby-link';
+import React from 'react'
+import Link from 'gatsby-link'
 
 export default class extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
-      showMobileNav: false
-    };
+      showMobileNav: false,
+    }
   }
 
   render() {
-    const { showMobileNav } = this.state;
+    const { showMobileNav } = this.state
     return (
       <div className="header">
         <div className="row-fluid">
@@ -89,7 +89,7 @@ export default class extends React.Component {
             </div>
           </div>
         </div>
-        <style jsx>{`
+        {/* <style jsx>{`
           .mobile-nav {
             border: 1px solid;
             color: #999;
@@ -424,8 +424,8 @@ export default class extends React.Component {
           .row-fluid {
             width: 100%;
           }
-        `}</style>
+        `}</style> */}
       </div>
-    );
+    )
   }
 }
