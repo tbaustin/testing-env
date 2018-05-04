@@ -90,6 +90,7 @@ export default class Index extends React.Component {
                   />
                 </div>
                 <div className="copy">
+                  <h1>Test site</h1>
                   <h2>Stiga Conference Table White</h2>
                   <p>Suggested Retail: $3499</p>
                   <p>
