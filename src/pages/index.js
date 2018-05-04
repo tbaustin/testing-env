@@ -258,7 +258,7 @@ export default class Index extends React.Component {
           </div>
         </div>
         <zygote.ZygoteContainer />
-        <style jsx>{homeStyles}</style>
+        {/* <style jsx>{homeStyles}</style> */}
       </div>
     )
   }
