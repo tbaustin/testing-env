@@ -1,6 +1,8 @@
 require('envdotjs').load()
 
-const plugins = ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-jsx']
+const plugins = ['gatsby-plugin-react-helmet', 
+// 'gatsby-plugin-styled-jsx'
+]
 if (process.env.SALSIFY_API_KEY) {
   plugins.push({
     resolve: 'gatsby-source-salsify',
