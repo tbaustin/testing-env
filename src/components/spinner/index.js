@@ -3,7 +3,7 @@ import React from 'react'
 export default () => {
   return (
     <div className="spinner">
-      {/* <style jsx>{`
+      <style jsx>{`
         div.spinner {
           border: 16px solid #fff;
           border-top: 16px solid #000;
@@ -22,7 +22,7 @@ export default () => {
             transform: rotate(360deg);
           }
         }
-      `}</style> */}
+      `}</style>
     </div>
   )
 }
